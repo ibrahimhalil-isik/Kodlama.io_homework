@@ -9,7 +9,7 @@ public class Main {
 		Instructor[] instructors = {
 			instructor1	
 		};
-		
+		 
 		for (Instructor instructor :instructors) {
 			System.out.println(instructor.firstName);
 		}
