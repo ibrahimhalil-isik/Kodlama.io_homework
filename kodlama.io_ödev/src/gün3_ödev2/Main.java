@@ -27,7 +27,7 @@ public class Main {
 			for ( Student student : students ) {
 				System.out.print(student.firstName +" "+ student.lastName );
 				System.out.println( " > Aldığı Ders : "+student.registeredCourse);
-				System.err.println();
+				System.out.println();
 			}
 		
 		Instructor instructor1 = new Instructor();
@@ -46,6 +46,17 @@ public class Main {
 			for ( Instructor instructor : instructors ) {
 				System.out.print(instructor.firstName);
 				System.out.println( " > Verdiği Ders : " + instructor.course);
+				System.out.println();
 			}
+			
+			StudentManager studentManager = new StudentManager();
+			studentManager.add();
+			studentManager.register();
+			System.out.println();
+			
+			InstructorManager instructorManager = new InstructorManager();
+			instructorManager.add();
+			instructorManager.uploaded();
+			System.out.println();
 	}
 }

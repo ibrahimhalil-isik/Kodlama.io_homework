@@ -1,15 +1,15 @@
 package gün2_ödev1;
 
-public class _Instructor {
+public class Instructor {
 	int id;
 	String firstName;
 	String lastName;
 	
-	public _Instructor(){
+	public Instructor(){
 		
 	}
 	
-	public _Instructor(int id, String firstName, String lastName){
+	public Instructor(int id, String firstName, String lastName){
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
