@@ -1,6 +1,6 @@
 package gün2_ödev1;
 
-public class CategoryManager {
+public class _CategoryManager {
 	
 	public void getAll() {
 		System.out.println("Kategoriler listelendi.");

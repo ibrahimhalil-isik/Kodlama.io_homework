@@ -1,15 +1,15 @@
 package gün2_ödev1;
 
-public class Category {
+public class _Category {
 	
 	int id;
 	String categoryName;	
 	
-	public Category() {
+	public _Category() {
 		
 	}
 	
-	public Category(int id, String categoryName) {
+	public _Category(int id, String categoryName) {
 		this.id = id;
 		this.categoryName = categoryName;
 	}
