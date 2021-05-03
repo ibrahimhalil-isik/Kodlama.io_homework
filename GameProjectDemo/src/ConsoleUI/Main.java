@@ -78,7 +78,6 @@ public static void main(String[] args) {
 		Campaign[] campaigns = {campaign1,campaign2};		
 		campaignManager.getAll(campaigns);
 
-
 	}
 
 }
